@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Carddetails from './components/Carddetails';
 
 function App() {
   return (
-    <div></div>
+    <div className='bg'>
+        <div className='left'></div>
+        <Carddetails/>
+    </div>
   );
 }
 

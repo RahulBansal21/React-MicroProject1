@@ -1,0 +1,109 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+label{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.155em;
+    text-align: left;
+}
+
+.crd{
+    margin-right: 225px;
+}
+
+.crdno {
+    margin-right: 270px;
+}
+
+.details {
+    display: flex;
+}
+
+.cmn {
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #00000021;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.cname {
+    width: 382px;
+}
+
+.exp {
+    width: 78px;
+    margin-right: 8px;
+
+}
+
+.cvv {
+    width: 189px;
+    margin-right: 8px;
+}
+
+input::placeholder{
+    color: #BBB9BC;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.125em;
+    padding-left: 10px;
+}
+
+button{
+    width: 382px;
+    height: 53px;
+    border-radius: 6px;
+    background: #220930;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.frm {
+    margin-top: 200px;
+}
+
+.lbl {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F81212;
+}
+
+/* .lvl {
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+    margin-left: 100px;
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+} */
